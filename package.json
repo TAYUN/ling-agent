@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --import tsx --test src/tools/__tests__/tools.test.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "packageManager": "pnpm@10.25.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.1",
+    "glob": "^13.0.6",
     "openai": "^6.42.0"
   },
   "devDependencies": {
