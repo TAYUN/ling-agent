@@ -1,0 +1,6 @@
+{
+  "provider": "volcano",
+  "apiKey": "your-api-key-here",
+  "model": "doubao-1.5-pro-32k-250115",
+  "baseURL": "https://ark.cn-beijing.volces.com/api/v3"
+}
