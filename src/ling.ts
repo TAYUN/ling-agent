@@ -1,7 +1,6 @@
 import 'dotenv/config'
 import { execSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
-import OpenAI from 'openai'
 import { initProvider, Message, ProviderConfig, Tool } from './providers';
 
 
