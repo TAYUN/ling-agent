@@ -1,1 +1,3 @@
 /.env
+.ling.json
+node_modules
